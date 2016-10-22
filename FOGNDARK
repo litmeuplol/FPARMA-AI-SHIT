@@ -1,0 +1,5 @@
+//just use this for foggy or dark missions
+_man setSkill *what ever you want. 0 = totally useless, 1 = ultimate sniper with a makarov at 1km distance*;
+_man setskill ["courage",1]; // stop taking cover and move forward
+_man setskill ["spotDistance",0.02]; //make it blind (to 40/50m)
+(group _man) allowFleeing 0; // stop running away
